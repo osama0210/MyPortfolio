@@ -301,7 +301,6 @@ body {
   .about-content {
     flex-direction: column-reverse;
     align-items: flex-end;
-
   }
   .my-photo {
     margin-right: 0px;
@@ -353,7 +352,7 @@ body {
   font-weight: bold;
 }
 
-.scroll-down{
+.scroll-down {
   height: 50px;
   width: 30px;
   border: 2px solid black;
@@ -363,8 +362,8 @@ body {
   cursor: pointer;
 }
 .scroll-down::before,
-.scroll-down::after{
-  content: '';
+.scroll-down::after {
+  content: "";
   position: absolute;
   top: 10%;
   left: 50%;
@@ -376,22 +375,24 @@ body {
   border-left: transparent;
   animation: scroll-down 1s ease-in-out infinite;
 }
-.scroll-down::after{
+.scroll-down::after {
   top: 20%;
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
-@keyframes scroll-down{
-  0%{
+@keyframes scroll-down {
+  0% {
     opacity: 0;
-  }30%{
+  }
+  30% {
     opacity: 1;
-  }60%{
+  }
+  60% {
     opacity: 1;
-  }100%{
+  }
+  100% {
     opacity: 0;
     top: 90%;
   }
-
 }
 
 .project-page {
@@ -450,7 +451,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-right: 2em;
-
 }
 
 .contact-container {
